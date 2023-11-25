@@ -1,0 +1,13 @@
+evadb
+eva-decord
+opencv-python
+malaya-speech 
+absl-py
+torchvision
+tensorflow
+librosa==0.9.1
+graphviz
+seaborn
+pydub
+moviepy
+transformers
