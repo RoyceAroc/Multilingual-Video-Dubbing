@@ -6,8 +6,21 @@ Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catala
 </details>
 
 ## Installation Guidelines
-TBA
-
+Clone the repository
+```shell
+git clone https://github.com/RoyceAroc/Multilingual-Video-Dubbing.git && cd Multilingual-Video-Dubbing
+```
+Setup the environment and install dependencies
+```shell
+python -m venv video-dubbing
+source video-dubbing/bin/activate
+pip install --upgrade pip setuptools wheel
+pip install -r requirements.txt
+```
+Adjust the base variables (video url, source, and target language) in ```main.py``` and run the file
+```shell
+python main.py
+```
 ## Examples
 ### Original Video (in English)
 
