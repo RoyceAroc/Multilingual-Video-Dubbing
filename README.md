@@ -33,5 +33,8 @@ https://github.com/RoyceAroc/Multilingual-Video-Dubbing/assets/47615786/70e6f50c
 
 https://github.com/RoyceAroc/Multilingual-Video-Dubbing/assets/47615786/1f04dafa-773e-4457-befa-240026ee0550
 
-## Limitations
-TBA
+## Limitations and Future Directions
+- Lack of Lip Synchronization. AI pose models can be used to improve results.
+- Lack of AI Voice Cloning. Using speaker embeddings on voices from the original video to generate voice cloning in different languages will improve results.
+- Lack of Speaker Diarization (identifying speaker 1, speaker 2, etc). Speaker Diarization models (spectral clustering, affinization, etc) can be used to improve results by using the other voice models that Whisper offers.
+- Weak Gender Diarization model. Current model was trained only on Malaya speech and may have biases on identifying between male/female voices.
